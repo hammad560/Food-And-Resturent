@@ -1,0 +1,335 @@
+:active,
+:hover,
+:focus {
+    outline: 0 !important;
+    outline-offset: 0;
+}
+
+.btn:hover {
+    background-color: white;
+    color: black;
+}
+
+ol,
+ul {
+    margin: 0px;
+    padding: 0px;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+a:hover {
+    color: var(--primery-color) !important;
+}
+
+.main-btn {
+    padding : 10px 20px 10px 20px;
+    box-shadow: none;
+    margin-left: 0.625rem;
+    background-color: #d63031;
+    border: none;
+}
+
+.main-btn:hover {
+    background-color: transparent;
+    color: orangered;
+    border: 1px solid;
+    border-color: var(--primery-color);
+}
+
+.white-btn {
+    padding : 10px 20px 10px 20px;
+    box-shadow: none;
+    margin-left: 0.625rem;
+    background-color: #ecf0f1;
+    color: #2c3e50;
+    border: none;
+}
+
+.white-btn:hover {
+    background-color: transparent;
+    color: var(--primery-color);
+    border-color: var(--);
+
+}
+
+.navbar-collapse {
+    padding-left: 290px;
+}
+
+/* Nevigation Css  */
+
+
+.navigation-wrap {
+    position: fixed;
+    width: 100%;
+    z-index: 1000;
+    -webkit-transition: all 0.3s ease-out;
+    ;
+    transition: all 0.3s ease-out;
+    background-color: #2c3e50;
+}
+
+.navigation-wrap .nav-item {
+    padding: 0 0.625rem;
+    transition: all 200ms linear;
+}
+
+.navbar-toggler {
+    outline: unset;
+    border: unset;
+    box-shadow: none;
+}
+
+.nav-link {
+    font-size: 0.9375rem;
+    font-weight: 600;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+    color: #e74c3c;
+}
+
+.navigation-wrap .main-btn {
+    padding: 0.3125rem 1.4375rem;
+    box-shadow: none;
+    margin-left: 0.625rem;
+}
+
+/* css on  nevigation-wrap scroll*/
+.navigation-wrap.scroll-on {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: var(--white-color);
+    box-shadow: 0 0.125rem 1.7rem 0 rgb(0, 0, 0.9);
+    transition: all 15s ease-in-out 0s;
+}
+
+/* Top Banner css */
+.top-banner {
+    width: 100%;
+    background: url('../images/bg/bg-1.jpg') center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 16.875rem 0 9.375rem;
+}
+
+h1 {
+    text-transform: capitalize;
+    color: #d63031;
+    font-weight: 700;
+}
+
+/* Css Counter portion */
+.counter-section {
+    background-color: #e74c3c;
+    padding: 0.975rem 0;
+}
+
+.counter-section p {
+    color: var(--white-color);
+    text-transform: uppercase;
+}
+
+/* 
+=========================
+About section
+=========================
+*/
+.about-section {
+    background-color: var(--white-color);
+}
+
+.about-section .card img {
+    border-radius: 2rem;
+}
+
+.about-section .text-sec {
+    padding-left: 2.5rem;
+}
+
+/* Food items Aboiut section part */
+
+.food-item {
+    padding-top: 20px
+}
+
+.food-item .text-sec ul li {
+    padding-left: 30px;
+    font-size: 1rem;
+    line-height: 32px;
+    position: relative;
+}
+.font-icon{
+    color: #d63031;
+    font-size: 20px;
+    line-height: 32px;
+}
+
+/* section 3 story-section */
+
+.text-content
+{
+    padding-top: 150px;
+}
+
+.story-section
+{
+    text-align: center;
+    height: 28.975rem;
+    width: 100%;
+    background: url('../images/bg/bg-2.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* Explore Section */
+
+.explore-section
+{
+    margin-top: 50px;
+}
+
+/* Card css */
+
+.card
+{
+    border: none;
+}
+.card-img-top
+{
+    border-radius: 10px;
+}
+.card .card-body span{
+    font-size: 20px;
+    font-weight: bold;
+    color: #d63031;
+}
+.card .card-body del{
+    font-size: 20px;
+    font-weight: bold;
+    color: #34495e;
+}
+/* Review part */
+
+.testimonial
+{
+    margin-top: 50px;
+}
+/* .testimonial h2{
+    align-items: center;
+    color: #d63031;
+    text-transform: capitalize;
+    font-weight: bold;
+} */
+
+/* Review section
+    ===Testimonial section===
+*/
+.testimonial-section{
+    background-color: #d63031;
+}
+.testimonial-section .carousel-item{
+    background-color: aliceblue;
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+    padding: 20px 10px 20px 10px;
+    border-radius: 3px;
+    text-align: center;
+}
+.testimonial-section .carousel-item .caresoual-caption img{
+    width: 90px;
+    border-radius: 50px;
+    text-align: center;
+}
+.testimonial-section .carousel-item .caresoual-caption p{
+    font-size: 20px;
+    line-height: 1.5rem;
+    padding: 10px 30px 10px 30px;
+}
+.testimonial-section .carousel-indicators button{
+    bottom: -2.8125rem;
+}
+.testimonial-section .carousel-indicators button{
+width: 15px;
+height: 15px;
+border: none;
+border-radius: 50px;
+opacity: 0.2;
+}
+.testimonial-section .carousel-indicators button.active{
+    opacity: 1;
+}
+/* FAQ section */
+.faq-section{
+    margin-top: 50px;
+    text-transform: capitalize;
+    font-size: 15px;
+}
+
+/* Book Sections */
+.Book-section{
+    height:250px;
+    margin-top: 10px;
+    background: url("../images/bg/bg-3.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: 0 71.9125;
+  
+}
+
+/* Form/Subscribe section */
+
+.form-letter{
+    width: 540px;
+    margin: 0 auto;
+}
+.form-letter .form-control{
+    height: 48px;
+    width: 100%;
+    background-color: #ecf0f1;
+    border-radius: none;   
+}
+form{
+    padding-left: 50px;
+}
+.form-letter .form-control:hover,
+.form-letter .form-control:focus{
+    border-color: #d63031;
+    outline: none;
+    box-shadow: none;
+}
+
+/* Footer Section */
+
+.footer-section{
+    margin-top: 10px;
+    background-color: #d63031;
+}
+.media-link{
+    padding-top: 30px;
+}
+.media-link a{
+    margin-right: 20px;
+    text-decoration: none;
+    color: #ecf0f1;
+}
+.media-link a:hover{
+    color: aquamarine;
+}
+.social-links{
+    color: #ecf0f1;
+    padding-bottom: 10px;
+}
+.social-links a{
+    margin-right: 20px;
+    font-size: 20px;
+    color: #ecf0f1;
+}
+.social-links i:hover{
+    color :orange;
+}
